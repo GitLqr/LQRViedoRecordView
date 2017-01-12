@@ -48,3 +48,5 @@
 ##二、效果
 
 ![image](screenshots/1.gif)
+
+图中的仿微信进度条使用的是：[LQRRecordProgress](https://github.com/GitLqr/LQRRecordProgress "仿微信小视频进度条")
