@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LQRVideoRecordView">
+        <!--视频录制的分辨率-->
+        <attr name="vrv_x_px" format="integer"/>
+        <attr name="vrv_y_px" format="integer"/>
+        <!--视频输出格式-->
+        <attr name="vrv_out_format" format="enum">
+            <enum name="of_mp4" value="0"></enum>
+            <enum name="of_3gp" value="1"></enum>
+        </attr>
+        <!--最长录制时间-->
+        <attr name="vrv_record_max_time" format="integer"></attr>
+        <!--声音的编码位率-->
+        <attr name="vrv_video_encoding_bit_rate" format="integer"/>
+        <!--录制的视频帧率-->
+        <attr name="vrv_video_frame_rate" format="integer"/>
+        <!--是否一开始就打开摄像头-->
+        <attr name="vrv_is_open_camera" format="boolean"/>
+    </declare-styleable>
+</resources>
