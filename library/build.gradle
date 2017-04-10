@@ -6,6 +6,7 @@ apply plugin: 'com.jfrog.bintray'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
+    resourcePrefix "LQRVideoRecordView__"
 
     defaultConfig {
         minSdkVersion 16

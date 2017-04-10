@@ -2,12 +2,12 @@
 安卓视频录制控件，可以用来仿微信小视频
 
 
-##一、使用
-###1、引入依赖
+## 一、使用
+### 1、引入依赖
 
 	compile 'com.lqr.videorecordview:library:1.0.0'
 
-###2、布局中引用
+### 2、布局中引用
 
 	<com.lqr.videorecordview.LQRVideoRecordView
         android:id="@+id/vrvVideo"
@@ -21,7 +21,7 @@
         app:vrv_x_px="320"
         app:vrv_y_px="240"/>
 
-###3、代码中控制
+### 3、代码中控制
 
 	mVrvVideo = (LQRVideoRecordView) findViewById(R.id.vrvVideo);
 
@@ -33,7 +33,7 @@
 	mVrvVideo.setOutputDirPath();//设置视频输出目录路径
 
 
-###4、自定义属性解释
+### 4、自定义属性解释
 
 	app:vrv_is_open_camera:是否控件加载完成就打开相机（默认是true）
 	app:vrv_out_format:视频输出格式（分mp4和3gp）
@@ -45,7 +45,7 @@
 
 	以上所有属性均有对应的setter和getter方法，可在代码中动态修改。
 
-##二、效果
+## 二、效果
 
 ![image](screenshots/1.gif)
 
